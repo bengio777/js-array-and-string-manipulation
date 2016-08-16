@@ -466,7 +466,7 @@ In JavaScript, almost "everything" is an object.
 var obj = { a:'alpha', b:'beta', c:'gamma' };
 
 for (var prop in obj) {
-  console.log("obj." + prop + " = " + obj[prop]);
+  console.log("obj." + prop + " = " + obj[prop]); 
 }
 
 // Output:

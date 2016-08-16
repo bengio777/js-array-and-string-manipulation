@@ -1,0 +1,14 @@
+/*
+Using ```.shift()``` :
+
+```js
+  var vehicles = ['lollipop', 'car', 'truck', 'tank']
+
+  ans => ['car', 'truck', 'tank']
+*/
+
+var vehicles = ['lollipop', 'car', 'truck', 'tank']
+
+vehicles.shift();
+
+console.log(vehicles);
